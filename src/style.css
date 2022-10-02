@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url('./assets/bg.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cover{
+    margin: 5px;
+    margin-left: 10px;
+    width: 300px;
+}
+.nav_top{
+    margin: 5px 2%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    padding-top: 40px;
+    padding-right: 20px;
+    color: white;
+    font-size: small;
+    font-weight: 200;
+}
+.navi_buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.texts{
+    padding-top: 5px;
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+    padding-right: 16px;
+}
+.btns{
+    width:35px;
+    padding-right: 5px;
+}
+.Container2 {
+    background-color: #2c2f33;
+    position: absolute;
+    top: 10%;
+    border-radius: 10px;
+}
+.cn{
+    color: white;
+}
+.atribcon {
+    align-items: left;
+    display: flex;
+    height: 300px;
+    width: 1228px;
+    margin: 0 5%;
+    overflow: hidden;
+    color: white;
+}
+.scrollmenu {
+    display: inline-block;
+    top: 1;
+    justify-content: center;
+    align-items: center;
+    height: 445px;
+    width: 1228px;
+    position: absolute;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.scrollmenu::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollmenu::-webkit-scrollbar-track {
+    background-color: rgba(39, 39, 39, 0.308);
+    scrollbar-color: rgba(39, 39, 39, 0.308);
+    border-radius: 10px;
+}
+
+.scrollmenu::-webkit-scrollbar-thumb {
+    background-color: #ffe27f;
+    border-radius: 10px;
+    scrollbar-color: #ffe27f;
+}
+#cont {
+    background-color: #2c2f33;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 150px;
+    width: 1200px;
+    position: relative;
+
+}
+.gap {
+    display: inline-block;
+}
+.titlesub{
+
+    margin-top: 30px;
+    font-weight: 500;
+}
+.member, .teach{
+    align-items: left;
+    margin-left: 5px;
+}
+.opener{
+    background-color: #ffe27f;
+    width: 200px;
+    border-radius: 5px;
+    border:none;
+    color: #2c2f33;
+    height: 145px;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    margin-right: 2px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.numbering{
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.size{
+    width: 716px;
+}
