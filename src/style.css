@@ -1,3 +1,4 @@
+/*root*/
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
 *{
     font-family: 'Readex Pro', sans-serif;
@@ -6,13 +7,15 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    color: white;
 }
 body{
-    background-image: url('./assets/bg.png');
+    background: #2c2f33 url(./assets/bg.png);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
+/*Navigation Bar*/
 .cover{
     margin: 5px;
     margin-left: 10px;
@@ -37,16 +40,32 @@ body{
     margin-top: 35px;
 }
 .texts{
+    display:inline-block;
     padding-top: 5px;
     color: white;
     font-weight: 300;
     font-size: 17px;
-    padding-right: 16px;
+    margin-right: 16px;
+    transition: 0.4s;
+}
+.texts:hover{
+    background-color: #385477;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
 }
 .btns{
     width:35px;
-    padding-right: 5px;
+    margin-right: 10px;
+    transition: 0.4s;
 }
+.btns:hover{
+    width: 40px;
+    box-shadow: 0px 5px 30px #ffe27f;
+    border-radius: 6px;
+    
+}
+/*Submissions Page*/
 .Container2 {
     background-color: #2c2f33;
     position: absolute;
@@ -137,4 +156,83 @@ body{
 }
 .size{
     width: 716px;
+}
+/*Home - Index*/
+.greet{
+    font-size: 80px;
+    font-weight: 500;
+}
+.sub_greet{
+    font-size: 20px;
+    font-weight: 300;
+}
+.subngreet{
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.main{
+    z-index: 999%;
+    display: flex;
+}
+.teachem{
+    margin-top: 7%;
+    width: 600px;
+}
+/*Events*/
+.events{
+    margin: 0 5%;
+    display:flex;
+}
+.env_title{
+    font-size: 35px;
+    font-weight: 400;
+}
+.env_subcap{
+    font-size: 20px;
+    font-weight: 300;
+}
+.env_title-1{
+    font-size: 35px;
+    font-weight: 400;
+}
+.env_subcap-1{
+    font-size: 20px;
+    font-weight: 300;
+}
+.fenv{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.cat{
+    margin-left: 50%;
+    width: 200px;
+}
+.events_cont{
+    margin: 3% 5%;
+    display: flex;
+    background-color: #2c2f33;
+    border: none;
+    border-radius: 10px;
+}
+.tag{
+    color: #ffe27f;
+    font-size: 20px;
+    font-weight: 300;
+}
+.subom{
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #2c2f33;
+    border: solid;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    font-weight: 500;
+    transition-duration: 0.4s;
+}
+.subom:hover{
+    background-color: rgb(255, 195, 146);
+    color: #2c2f33;
+    border: solid;
+    border-radius: 5px;
 }
