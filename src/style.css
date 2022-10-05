@@ -236,3 +236,158 @@ body{
     border: solid;
     border-radius: 5px;
 }
+/*Containers For Club Officers*/
+.cnt{
+    margin: 0 5%;
+}
+.cnt-ofc-title{
+    font-size: 35px;
+    font-weight: 500;
+}
+.ofc-photo{
+    display: flex;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    width: 200px;
+    padding: 10px 30px;
+    background-color: #303030;
+}
+.cont0ofc-photo{
+    display: flex;
+    margin-top: 20px;
+    background-color: #2c2f33;
+    border-radius: 10px;
+}
+.ofc-names{
+    margin-left: 5%;
+}
+.ofc-name-main{
+    font-size: 35px;
+    font-weight: 500;
+}
+.ofc-name-start{
+    margin-top: 15%;
+    color: #ffe27f;
+    font-size: 25px;
+}
+.ofc-name-start1{
+    margin-top: 10%;
+    color: #ffe27f;
+    font-size: 25px;
+}
+.ofc-name-start2{
+    margin-top: 25%;
+    color: #ffe27f;
+    font-size: 25px;
+}
+.ofc-name-start3{
+    margin-top: 13%;
+    color: #ffe27f;
+    font-size: 25px;
+}
+.ofc-name-start4{
+    margin-top: 13%;
+    color: #ffe27f;
+    font-size: 25px;
+}
+/*buttons*/
+.btn_linkk{
+    background-color: #ffe27f;
+    width: 200px;
+    border-radius: 5px;
+    border:none;
+    color: #2c2f33;
+    height: 60px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*Alignment of btns*/
+.a-btns{
+    margin-top: 15px;
+    margin-left: 17%;
+}
+.b-btns{
+    margin-top: 15px;
+    margin-left: 30.5%;
+}
+.c-btns{
+    margin-top: 15px;
+    margin-left: 24%;
+}
+.d-btns{
+    margin-top: 15px;
+    margin-left: 26%;
+}
+.e-btns{
+    margin-top: 15px;
+    margin-left: 30.1%;
+}
+.f-btns{
+    margin-top: 15px;
+    margin-left: 37.6%;
+}
+.g-btns{
+    margin-top: 15px;
+    margin-left: 15.5%;
+}
+.h-btns{
+    margin-top: 15px;
+    margin-left: 16.5%;
+}
+.i-btns{
+    margin-top: 15px;
+    margin-left: 23.6%;
+}
+.j-btns{
+    margin-top: 15px;
+    margin-left: 24%;
+}
+.k-btns{
+    margin-top: 15px;
+    margin-left: 24%;
+}
+/*About Page*/
+.abt-title{
+    margin: 0 5%;
+}
+.abt-main{
+    margin-top: 8%;
+    margin-left: 3%;
+}
+
+.abt-con-title{
+    font-size: 90px;
+    font-weight: 600;
+}
+.ofc-name-start3{
+    margin-top: 30px;
+    display: flex;
+
+}
+.cnt3{
+    z-index: 999;
+    display: flex;
+    margin: 0 6%;
+}
+.teachem2{
+    margin-left: 8%;
+    width: 400px
+}
+.teachem3{
+    margin-top: 20%;
+    margin-right: 10%;
+    width: 300px
+}
+.teachem4{
+    margin-top: 60%;
+    margin-left: 8%;
+    width: 300px
+}
+.footer-main{
+    margin-top: 10%;
+    z-index: 999;
+    background-color: #2c2f33;
+    height: 150px;
+}
