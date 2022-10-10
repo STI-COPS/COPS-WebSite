@@ -2,5 +2,7 @@
 
 ### <p align="center">COPS: Official Club Website</p>
 >This is the COPS main Website that is still under Development
+
 >Status: UP and Working for Laptops and Desktops only.
->Design: WIP
+
+>Design: Done But not responsive (Still a lot of things to fix)
